@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Syeda Saniya — Portfolio</title>
+  <meta name="description" content="Resume-style, minimal portfolio for Syeda Saniya — Software Engineer / Full‑Stack Developer" />
+  <!-- Tailwind CSS CDN (no custom colors, no animations) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Print-friendly tweaks */
+    @media print {
+      a[href]:after { content: ""; } /* Hide link URLs in print */
+      .no-print { display: none !important; }
+      body { color: #000; }
+      .container { max-width: none; }
+    }
+  </style>
+</head>
+<body class="bg-white text-neutral-900 antialiased">
+  <main class="container mx-auto px-4 py-10 max-w-4xl">
+    <!-- Header -->
+    <header class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between border-b border-neutral-200 pb-6">
+      <div>
+        <h1 class="text-3xl font-semibold tracking-tight">Syeda Saniya</h1>
+        <p class="mt-1 text-sm">Hyderabad, India</p>
+      </div>
+      <ul class="text-sm space-y-1">
+        <li><a class="underline hover:no-underline" href="tel:+919866099763">+91 98660 99763</a></li>
+        <li><a class="underline hover:no-underline" href="mailto:syedsaniaa0a@gmail.com">syedsaniaa0a@gmail.com</a></li>
+        <li><a class="underline hover:no-underline" href="https://saniya.codes" target="_blank" rel="noreferrer">saniya.codes</a></li>
+        <li class="flex gap-2 flex-wrap">
+          <a class="underline hover:no-underline" href="https://github.com/syedasaniya" target="_blank" rel="noreferrer">github.com/syedasaniya</a>
+          <span aria-hidden>•</span>
+          <a class="underline hover:no-underline" href="https://linkedin.com/in/syedasaniya" target="_blank" rel="noreferrer">linkedin.com/in/syedasaniya</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Objective -->
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold tracking-tight">Objective</h2>
+      <p class="mt-2 text-sm leading-relaxed">
+        Motivated and technically skilled aspiring software developer seeking an opportunity to apply and expand my knowledge in software development.
+        Eager to contribute to real-world projects, collaborate with experienced teams, and grow professionally in a dynamic tech environment.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold tracking-tight">Education</h2>
+      <div class="mt-3 grid gap-4">
+        <article class="border border-neutral-200 rounded-xl p-4">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium">cs.code.in — Computer Science Engineering Bootcamp</h3>
+            <span class="text-xs whitespace-nowrap">2022 – 2025</span>
+          </div>
+          <p class="mt-1 text-sm">Hyderabad, India</p>
+        </article>
+        <article class="border border-neutral-200 rounded-xl p-4">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium">State Board of Intermediate Education — Intermediate (MPC)</h3>
+            <span class="text-xs whitespace-nowrap">2020 – 2022</span>
+          </div>
+          <p class="mt-1 text-sm">Hyderabad, India</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold tracking-tight">Skills</h2>
+      <div class="mt-3 grid sm:grid-cols-2 gap-4">
+        <div class="border border-neutral-200 rounded-xl p-4">
+          <h3 class="text-sm font-medium">Programming Languages</h3>
+          <p class="mt-2 text-sm">JavaScript, TypeScript, Node.js, Bash</p>
+        </div>
+        <div class="border border-neutral-200 rounded-xl p-4">
+          <h3 class="text-sm font-medium">Web Technologies</h3>
+          <p class="mt-2 text-sm">React, Express, HTML, CSS, MongoDB</p>
+        </div>
+        <div class="border border-neutral-200 rounded-xl p-4">
+          <h3 class="text-sm font-medium">Databases</h3>
+          <p class="mt-2 text-sm">MySQL, MongoDB</p>
+        </div>
+        <div class="border border-neutral-200 rounded-xl p-4">
+          <h3 class="text-sm font-medium">DevOps & Version Control</h3>
+          <p class="mt-2 text-sm">Git, GitHub, Docker</p>
+        </div>
+        <div class="border border-neutral-200 rounded-xl p-4">
+          <h3 class="text-sm font-medium">Cloud</h3>
+          <p class="mt-2 text-sm">AWS</p>
+        </div>
+        <div class="border border-neutral-200 rounded-xl p-4">
+          <h3 class="text-sm font-medium">Specialized Areas</h3>
+          <p class="mt-2 text-sm">Web Development, Cybersecurity, Scripting, Networking</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold tracking-tight">Projects</h2>
+      <div class="mt-3 grid gap-4">
+        <article class="border border-neutral-200 rounded-xl p-4">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium">Online Web Compiler System</h3>
+          </div>
+          <p class="mt-2 text-xs">Node.js, Express, React, Tailwind, AWS (EC2, Nginx, Docker)</p>
+          <ul class="mt-2 list-disc list-inside text-sm space-y-1">
+            <li>Built a web-based compiler for real-time code execution.</li>
+          </ul>
+        </article>
+        <article class="border border-neutral-200 rounded-xl p-4">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium">Server Apps Monitoring System (WATCHDOG)</h3>
+          </div>
+          <p class="mt-2 text-xs">JavaScript, Node.js, Express, MongoDB, HTML, CSS, React</p>
+          <ul class="mt-2 list-disc list-inside text-sm space-y-1">
+            <li>Real-time application monitoring and alerting for system health.</li>
+          </ul>
+        </article>
+        <article class="border border-neutral-200 rounded-xl p-4">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium">Full Stack Blog Engine</h3>
+          </div>
+          <p class="mt-2 text-xs">JavaScript, Node.js, React, SQL, Express (Postgres)</p>
+          <ul class="mt-2 list-disc list-inside text-sm space-y-1">
+            <li>Blog platform with regularly updated posts and admin tools.</li>
+          </ul>
+        </article>
+        <article class="border border-neutral-200 rounded-xl p-4">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium">Bulk Email Sender Automation</h3>
+          </div>
+          <p class="mt-2 text-xs">Python, SMTP, MongoDB</p>
+          <ul class="mt-2 list-disc list-inside text-sm space-y-1">
+            <li>Automated sending to 5,000+ recipients; reduced manual effort by ~70% and improved open rates by ~25%.</li>
+          </ul>
+        </article>
+        <article class="border border-neutral-200 rounded-xl p-4">
+          <div class="flex items-center justify-between gap-4">
+            <h3 class="font-medium">Tasky Notification Web System</h3>
+          </div>
+          <p class="mt-2 text-xs">JavaScript, Node.js, React, Express, MongoDB</p>
+          <ul class="mt-2 list-disc list-inside text-sm space-y-1">
+            <li>SAAS productivity app that sends deadline reminders via SMS and email to improve team and individual productivity.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="mt-8">
+      <h2 class="text-xl font-semibold tracking-tight">Achievements</h2>
+      <ul class="mt-2 list-disc list-inside text-sm space-y-1">
+        <li>JEE Main (B.Arch) 2022 — All India Rank 10,314 (based on final NTA score).</li>
+      </ul>
+    </section>
+
+    <!-- Footer / Call to action -->
+    <footer class="mt-10 pt-6 border-t border-neutral-200 text-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <p>Open to Software Engineering / Full‑Stack roles.</p>
+      <div class="flex gap-3">
+        <a class="underline hover:no-underline" href="mailto:syedsaniaa0a@gmail.com">Email Me</a>
+        <a class="underline hover:no-underline" href="#" onclick="window.print(); return false;">Print</a>
+        <a class="underline hover:no-underline" href="/resume.pdf" target="_blank" rel="noreferrer">Download PDF</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
